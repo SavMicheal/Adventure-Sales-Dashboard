@@ -1,4 +1,4 @@
-# Adventure Works Sales Analysis
+## Adventure Works Sales Analysis
 
 In this project, I conducted a comprehensive analysis of Adventure Works' sales data to gain insights into market trends, product performance, and customer demographics. The analysis aimed to:
 
