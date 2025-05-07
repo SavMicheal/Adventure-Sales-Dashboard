@@ -7,7 +7,7 @@ In this project, I conducted a comprehensive analysis of Adventure Works' sales 
 - Analyze country-wise sales performance
 - Explore customer demographics driving sales
 
-#Methodology:#
+### Methodology:
 
 1. *Data Collection:* Collected sales, customer, product, and sales territory data from 2012 to 2014
 2. *Data Wrangling:* Cleaned and transformed data using Power Query
@@ -15,23 +15,23 @@ In this project, I conducted a comprehensive analysis of Adventure Works' sales 
 4. *Exploratory Data Analysis:* Created a dashboard to overview key performance indicators (KPIs)
 5. *Data Visualization:* Visualized insights to inform business decisions
 
-*Key Findings:*
+### Key Findings:
 
 - Product performance analysis revealed top-selling products and areas for improvement
 - Country-wise sales analysis identified markets with high and low demand
 - Customer demographics analysis showed key customer segments driving sales
 
-*Tools and Techniques:*
+### Tools and Techniques:
 
 - Power Query for data wrangling
 - Data modeling using star schema
 - Data visualization using dashboards and reports
 
-*GitHub Repository:*
+### GitHub Repository:
 
 This repository contains the code, data models, and visualizations used in the analysis. Feel free to explore and provide feedback!
 
-*Skills Demonstrated:*
+### Skills Demonstrated:
 
 - Data analysis and visualization
 - Data modeling and wrangling
