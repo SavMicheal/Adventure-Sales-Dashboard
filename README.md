@@ -7,7 +7,7 @@ In this project, I conducted a comprehensive analysis of Adventure Works' sales 
 - Analyze country-wise sales performance
 - Explore customer demographics driving sales
 
-#Methodology:
+#Methodology:#
 
 1. *Data Collection:* Collected sales, customer, product, and sales territory data from 2012 to 2014
 2. *Data Wrangling:* Cleaned and transformed data using Power Query
