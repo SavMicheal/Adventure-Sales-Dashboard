@@ -23,10 +23,8 @@ ___
 
 ##  Tools & Techniques
 
-* **Power Query** – data cleaning and transformation
-* **Power BI / Excel** – dashboards and trend visualization
-* **SQL (optional)** – querying structured booking data
-* **Exploratory Data Analysis (EDA)** – trend and cancellation analysis
+* **Power BI** 
+* **Dax**
 ___
 
 ##  Key Findings
