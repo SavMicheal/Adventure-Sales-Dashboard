@@ -1,6 +1,6 @@
-# Adventure Works Sales Analysis
+ Adventure Works Sales Analysis
 
-## Overview
+ Overview
 
 This project provides a comprehensive analysis of Adventure Works’ sales and booking-related data to uncover market trends, product performance, customer demographics, and booking behaviors. The objective was to generate actionable insights that inform business decisions, improve customer satisfaction, and drive revenue growth.
 ---
