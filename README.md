@@ -11,6 +11,7 @@ ___
 * Investigate booking cancellations and affordability issues
 * Examine seasonal trends in guest arrivals and average daily rates (ADR)
 * Provide data-driven recommendations to improve revenue and occupancy
+___
 
 ##  Methodology
 
@@ -18,6 +19,7 @@ ___
 2. **Data Wrangling** – Cleaned and standardized raw data using Power Query
 3. **Exploratory Data Analysis (EDA)** – Identified patterns in cancellations, ADR, and seasonality
 4. **Visualization** – Created dashboards to showcase booking trends and demand fluctuations
+___
 
 ##  Tools & Techniques
 
@@ -25,6 +27,7 @@ ___
 * **Power BI / Excel** – dashboards and trend visualization
 * **SQL (optional)** – querying structured booking data
 * **Exploratory Data Analysis (EDA)** – trend and cancellation analysis
+___
 
 ##  Key Findings
 * **Hotel Preference**: City hotels accounted for 66.4% of bookings, while resort hotels represented 33.6%. This indicates stronger demand for city hotels, likely driven by business travel, conferences, and short stays.
@@ -44,6 +47,7 @@ ___
 
   * **Lowest ADR** recorded in **May**, followed by April and October
   * → These months are the most budget-friendly for travelers.
+___
 
 ##  Recommendations
 
