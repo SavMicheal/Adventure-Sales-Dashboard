@@ -1,53 +1,56 @@
- Adventure Works Sales Analysis
+#  Hotel Booking Analysis
 
- Overview
+##  Overview
 
-This project provides a comprehensive analysis of Adventure Works’ sales and booking-related data to uncover market trends, product performance, customer demographics, and booking behaviors. The objective was to generate actionable insights that inform business decisions, improve customer satisfaction, and drive revenue growth.
----
+This project analyzes hotel booking data to uncover guest preferences, seasonal demand patterns, and cancellation behaviors. The goal is to generate actionable insights that can help hotels optimize pricing strategies, reduce cancellations, and improve occupancy management.
+___
 
-## Methodology
+##  Objectives
 
-* **Data Collection:** Compiled data on sales, customers, products, territories, and hotel bookings.
-* **Data Wrangling:** Cleaned and transformed data using Power Query to ensure consistency and accuracy.
-* **Data Modeling:** Designed a star schema model to create clear relationships between fact and dimension tables.
-* **Exploratory Analysis:** Performed descriptive statistics and trend analysis to identify sales and booking patterns.
-* **Visualization:** Developed interactive dashboards to present KPIs, customer trends, and seasonal patterns.
----
+* Identify guest preferences between city and resort hotels
+* Investigate booking cancellations and affordability issues
+* Examine seasonal trends in guest arrivals and average daily rates (ADR)
+* Provide data-driven recommendations to improve revenue and occupancy
 
-## Tools & Techniques
+##  Methodology
 
-* **Power Query** for data transformation and cleaning
-* **Star Schema** for structured data modeling
-* **Power BI Dashboards** for visualization and reporting
-* **Excel & DAX** for additional analysis and measures
----
+1. **Data Collection** – Guest booking records, including hotel type, booking status, ADR, and arrival dates
+2. **Data Wrangling** – Cleaned and standardized raw data using Power Query
+3. **Exploratory Data Analysis (EDA)** – Identified patterns in cancellations, ADR, and seasonality
+4. **Visualization** – Created dashboards to showcase booking trends and demand fluctuations
 
-## Key Findings
+##  Tools & Techniques
 
-* **Hotel Preferences:** City hotels accounted for **66.4% of bookings**, significantly higher than resort hotels (**33.6%**), suggesting stronger demand in urban areas likely due to business travel and conferences.
-* **Cancellations:** Out of **44,224 bookings**, over **36,700 were canceled**, with affordability being the main barrier, highlighting pricing sensitivity among guests.
-* **Seasonality:** Guest arrivals peaked in **August**, with **June and July** also showing high demand. In contrast, **December** recorded the lowest activity.
-* **Pricing Trends:** The lowest **Average Daily Rate (ADR)** occurred in **May**, making it the most budget-friendly booking month, followed by April and October.
----
+* **Power Query** – data cleaning and transformation
+* **Power BI / Excel** – dashboards and trend visualization
+* **SQL (optional)** – querying structured booking data
+* **Exploratory Data Analysis (EDA)** – trend and cancellation analysis
 
-## Insights
+##  Key Findings
+* **Hotel Preference**: City hotels accounted for 66.4% of bookings, while resort hotels represented 33.6%. This indicates stronger demand for city hotels, likely driven by business travel, conferences, and short stays.
 
-* Customers demonstrate a **clear preference for city hotels**, emphasizing the importance of urban market strategies.
-* **High cancellation rates** due to affordability highlight the need for more flexible pricing structures and targeted promotions.
-* **Seasonal demand patterns** indicate that peak months (June–August) require optimized pricing and staffing, while off-peak months need promotional campaigns to sustain occupancy.
----
+* **Booking Cancellations**:
 
-## Recommendations
+  * Out of **44,224 guests**, **36,723 (\~83%)** canceled primarily due to affordability challenges.
+  * → Pricing sensitivity is a key issue for guests.
 
-1. **Pricing Strategy:** Introduce tiered pricing models or discounts during off-peak months (e.g., December) to boost demand and reduce idle capacity.
-2. **Cancellation Reduction:** Offer installment payment options, early-bird discounts, or loyalty programs to make bookings more affordable and reduce cancellation rates.
-3. **Urban Market Focus:** Strengthen marketing and tailored packages for city hotels, especially targeting business travelers and conference attendees.
-4. **Resource Optimization:** Align staffing and promotions with **seasonal fluctuations**, ensuring higher efficiency during peak months and cost savings during low-demand periods.
----
+* **Seasonality in Demand**:
 
-## Skills Demonstrated
+  * **Peak**: August (highest arrivals), June (moderate demand)
+  * **Low**: December (sharp decline in arrivals)
+  * → Strong seasonal variation impacts occupancy rates.
 
-* Data Wrangling & Modeling
-* Data Visualization & Dashboard Design
-* Trend & Market Analysis
-* Business Insight Generation
+* **Pricing Trends**:
+
+  * **Lowest ADR** recorded in **May**, followed by April and October
+  * → These months are the most budget-friendly for travelers.
+
+##  Recommendations
+
+* **Dynamic Pricing**: Adjust ADR based on demand (higher in peak months, lower in off-peak).
+* **Targeted Promotions**: Run discounts and marketing campaigns in **December** and other low-demand periods.
+* **Affordability Programs**: Offer flexible payment plans or tiered pricing to reduce cancellations.
+* **Market Positioning**:
+
+  * Promote **city hotels** for business travelers.
+  * Develop **resort hotel packages** for leisure travelers during peak holiday seasons.
