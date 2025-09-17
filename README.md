@@ -1,40 +1,53 @@
-## Adventure Works Sales Analysis
+# Adventure Works Sales Analysis
 
-In this project, I conducted a comprehensive analysis of Adventure Works' sales data to gain insights into market trends, product performance, and customer demographics. The analysis aimed to:
+## Overview
 
-- Identify market trends and sales patterns
-- Determine top and bottom-performing products
-- Analyze country-wise sales performance
-- Explore customer demographics driving sales
+This project provides a comprehensive analysis of Adventure Works’ sales and booking-related data to uncover market trends, product performance, customer demographics, and booking behaviors. The objective was to generate actionable insights that inform business decisions, improve customer satisfaction, and drive revenue growth.
+---
 
-### Methodology:
+## Methodology
 
-1. *Data Collection:* Collected sales, customer, product, and sales territory data from 2012 to 2014
-2. *Data Wrangling:* Cleaned and transformed data using Power Query
-3. *Data Modeling:* Designed a star schema model to establish relationships between dimension and fact tables
-4. *Exploratory Data Analysis:* Created a dashboard to overview key performance indicators (KPIs)
-5. *Data Visualization:* Visualized insights to inform business decisions
+* **Data Collection:** Compiled data on sales, customers, products, territories, and hotel bookings.
+* **Data Wrangling:** Cleaned and transformed data using Power Query to ensure consistency and accuracy.
+* **Data Modeling:** Designed a star schema model to create clear relationships between fact and dimension tables.
+* **Exploratory Analysis:** Performed descriptive statistics and trend analysis to identify sales and booking patterns.
+* **Visualization:** Developed interactive dashboards to present KPIs, customer trends, and seasonal patterns.
+---
 
-### Key Findings:
+## Tools & Techniques
 
-- Product performance analysis revealed top-selling products and areas for improvement
-- Country-wise sales analysis identified markets with high and low demand
-- Customer demographics analysis showed key customer segments driving sales
+* **Power Query** for data transformation and cleaning
+* **Star Schema** for structured data modeling
+* **Power BI Dashboards** for visualization and reporting
+* **Excel & DAX** for additional analysis and measures
+---
 
-### Tools and Techniques:
+## Key Findings
 
-- Power Query for data wrangling
-- Data modeling using star schema
-- Data visualization using dashboards and reports
+* **Hotel Preferences:** City hotels accounted for **66.4% of bookings**, significantly higher than resort hotels (**33.6%**), suggesting stronger demand in urban areas likely due to business travel and conferences.
+* **Cancellations:** Out of **44,224 bookings**, over **36,700 were canceled**, with affordability being the main barrier, highlighting pricing sensitivity among guests.
+* **Seasonality:** Guest arrivals peaked in **August**, with **June and July** also showing high demand. In contrast, **December** recorded the lowest activity.
+* **Pricing Trends:** The lowest **Average Daily Rate (ADR)** occurred in **May**, making it the most budget-friendly booking month, followed by April and October.
+---
 
-### GitHub Repository:
+## Insights
 
-This repository contains the code, data models, and visualizations used in the analysis. Feel free to explore and provide feedback!
+* Customers demonstrate a **clear preference for city hotels**, emphasizing the importance of urban market strategies.
+* **High cancellation rates** due to affordability highlight the need for more flexible pricing structures and targeted promotions.
+* **Seasonal demand patterns** indicate that peak months (June–August) require optimized pricing and staffing, while off-peak months need promotional campaigns to sustain occupancy.
+---
 
-### Skills Demonstrated:
+## Recommendations
 
-- Data analysis and visualization
-- Data modeling and wrangling
-- Business acumen and insight generation
+1. **Pricing Strategy:** Introduce tiered pricing models or discounts during off-peak months (e.g., December) to boost demand and reduce idle capacity.
+2. **Cancellation Reduction:** Offer installment payment options, early-bird discounts, or loyalty programs to make bookings more affordable and reduce cancellation rates.
+3. **Urban Market Focus:** Strengthen marketing and tailored packages for city hotels, especially targeting business travelers and conference attendees.
+4. **Resource Optimization:** Align staffing and promotions with **seasonal fluctuations**, ensuring higher efficiency during peak months and cost savings during low-demand periods.
+---
 
-By analyzing Adventure Works' sales data, I provided actionable insights to inform business decisions and drive growth.
+## Skills Demonstrated
+
+* Data Wrangling & Modeling
+* Data Visualization & Dashboard Design
+* Trend & Market Analysis
+* Business Insight Generation
