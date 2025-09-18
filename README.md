@@ -1,58 +1,104 @@
-#  Hotel Booking Analysis
+#  Sales Adventure Analytics Dashboard
 
-##  Overview
+##  Summary
 
-This project analyzes hotel booking data to uncover guest preferences, seasonal demand patterns, and cancellation behaviors. The goal is to generate actionable insights that can help hotels optimize pricing strategies, reduce cancellations, and improve occupancy management.
-___
+This project presents a comprehensive analysis of a global retail company's sales performance through interactive dashboards. The insights are derived from product, customer, and territory datasets and visualized using Power BI to identify patterns, trends, and strategic opportunities.
+
+---
 
 ##  Objectives
 
-* Identify guest preferences between city and resort hotels
-* Investigate booking cancellations and affordability issues
-* Examine seasonal trends in guest arrivals and average daily rates (ADR)
-* Provide data-driven recommendations to improve revenue and occupancy
-___
+- Analyze sales performance across different countries and cities.
+- Identify top-performing product categories and subcategories.
+- Understand customer behavior based on demographics.
+- Evaluate logistics costs (freight) by region.
+- Provide actionable business insights for stakeholders.
+
+---
+
+##  Tools & Technologies
+
+- **Power BI** – For data visualization and dashboard creation.
+- **Microsoft Excel** – Data cleaning and preparation.
+- **DAX & Power Query** – For custom calculations and data transformation.
+
+---
+
+##  Dataset Overview
+
+The dataset includes:
+
+- **Territory Data**: Sales, freight cost, orders by country and region.
+- **Customer Data**: Sales by customer name, gender, marital status.
+- **Sales Data**: Product categories, subcategories, total orders, and product cost.
+
+---
 
 ##  Methodology
 
-1. **Data Collection** – Guest booking records, including hotel type, booking status, ADR, and arrival dates
-2. **Data Wrangling** – Cleaned and standardized raw data using Power Query
-3. **Exploratory Data Analysis (EDA)** – Identified patterns in cancellations, ADR, and seasonality
-4. **Visualization** – Created dashboards to showcase booking trends and demand fluctuations
-___
+1. **Data Cleaning & Transformation**:
+   - Handled missing values and formatting inconsistencies using Power Query.
+   - Unified formats for dates, regions, and categorical variables.
 
-##  Tools & Techniques
+2. **Data Modeling**:
+   - Implemented a star schema with fact and dimension tables.
+   - Established relationships between customers, products, sales, and locations.
 
-* **Power BI** 
-* **Dax**
-___
+3. **Visualization**:
+   - KPI Cards for high-level metrics.
+   - Bar/column charts for comparative analysis.
+   - Pie charts for categorical breakdowns.
+   - Heatmaps for trend analysis by month.
 
-##  Key Findings
-* **Hotel Preference**: City hotels accounted for 66.4% of bookings, while resort hotels represented 33.6%. This indicates stronger demand for city hotels, likely driven by business travel, conferences, and short stays.
+---
 
-* **Booking Cancellations**:
+##  Key Insights
 
-  * Out of **44,224 guests**, **36,723 (\~83%)** canceled primarily due to affordability challenges.
-  * → Pricing sensitivity is a key issue for guests.
+###  Territory Overview
+- **Top Sales Country**: United States ($7M)
+- **Worst Sales Country**: Canada ($1M)
+- **Highest Freight Cost**: Europe (37.41%)
+- **Most Orders**: United States (~20K)
+- **Cities Covered**: 562 across 6 countries
 
-* **Seasonality in Demand**:
+###  Customer Overview
+- **Total Sales**: $22M
+- **Total Customers**: 18K
+- **Gender Breakdown**:
+  - Female: $11M (49.51%)
+  - Male: $11M (50.49%)
+- **Marital Status**:
+  - Married: $11M (47.61%)
+  - Single: $12M (52.39%)
+- **Top Customers**:
+  - Jordan Turner – $15,995
+  - Janet Munoz – $14,060
 
-  * **Peak**: August (highest arrivals), June (moderate demand)
-  * **Low**: December (sharp decline in arrivals)
-  * → Strong seasonal variation impacts occupancy rates.
+###  Sales Overview
+- **Total Product Cost**: $13M
+- **Total Products**: 504
+- **Top Product Category**: Bikes (62% of orders)
+- **Top Subcategories by Sales**:
+  - Road Bikes – ~$8M
+  - Mountain Bikes – ~$4M
+  - Touring Bikes – ~$3M
+- **Other Products**: Helmets, Tires & Tubes, Shorts, Jerseys, etc.
 
-* **Pricing Trends**:
-
-  * **Lowest ADR** recorded in **May**, followed by April and October
-  * → These months are the most budget-friendly for travelers.
-___
+---
 
 ##  Recommendations
 
-* **Dynamic Pricing**: Adjust ADR based on demand (higher in peak months, lower in off-peak).
-* **Targeted Promotions**: Run discounts and marketing campaigns in **December** and other low-demand periods.
-* **Affordability Programs**: Offer flexible payment plans or tiered pricing to reduce cancellations.
-* **Market Positioning**:
+- **Expand in High-Performing Markets**:
+  - Focus on the United States and Australia where sales and orders are highest.
 
-  * Promote **city hotels** for business travelers.
-  * Develop **resort hotel packages** for leisure travelers during peak holiday seasons.
+- **Product Focus**:
+  - Prioritize inventory and promotional efforts on Road and Mountain Bikes.
+
+- **Customer Segmentation**:
+  - Design targeted marketing campaigns for single and female customers.
+
+- **Freight Optimization**:
+  - Review and optimize freight costs in Europe, which account for the largest share.
+
+- **Cross-Selling Opportunities**:
+  - Promote accessories and clothing alongside bikes to increase basket size.
