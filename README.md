@@ -1,4 +1,4 @@
-#  Sales Adventure Analytics Dashboard
+#  Sales Adventure Dashboard
 
 ##  Summary
 
