@@ -19,8 +19,7 @@ This project presents a comprehensive analysis of a global retail company's sale
 ##  Tools & Technologies
 
 - **Power BI** – For data visualization and dashboard creation.
-- **Microsoft Excel** – Data cleaning and preparation.
-- **DAX & Power Query** – For custom calculations and data transformation.
+- **DAX** – For custom calculations and data transformation.
 
 ---
 
